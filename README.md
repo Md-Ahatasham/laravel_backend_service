@@ -1,21 +1,14 @@
 ## project setup
 
+## 1) composer update
 
+## 2) setup a database through .env file
 
-Nothing here to configure. if server already running. just browse  http://localhost/laravel_backend ( no need to run on specific port OR no need to run php artisan serve command)
+## 2) php artisan migrate
 
+## 4) php artisan serve --port 8000
 
-
-Create database: database name (laravel_backend)
-
-
-Run migration command: 
-
-in terminal just run this command:
-
-php artisan migrate
-
-
+   N.B (port should be 8000) because of api endpoint)
 
 that's it. 
 
