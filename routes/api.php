@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
     Route::post('login', 'AuthController@login');
     Route::post('register', 'AuthController@register');
 
-    Route::group(['middleware' => ['jwt.verify','cors']], function() {
+    Route::group(['middleware' => ['jwt.verify']], function() {
         Route::get('products', 'ProductController@index');
         Route::get('products/{id}', 'ProductController@edit');
         Route::post('products', 'ProductController@store');
