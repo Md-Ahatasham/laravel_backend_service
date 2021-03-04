@@ -1,3 +1,14 @@
+Requirements
+
+    PHP >=7.2
+   
+
+Supported Image Libraries
+
+    GD Library (>=2.0)
+    Imagick PHP extension (>=6.5.7)
+
+
 ## project setup
 
 ## 1) composer update
